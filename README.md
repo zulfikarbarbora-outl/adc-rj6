@@ -1,20 +1,13 @@
-# Roland Juno-6 — Opus 48k Previews
+# Audio Data Collection
 
-Roland Juno-6 (1982) — 6-voice polyphonic analog synthesizer with one DCO per voice and chorus. Sourced from publicsamples (CC0).
+Audio files in Opus 48k format with metadata index.
 
-## Source
-- Original: https://github.com/publicsamples/Roland-Juno-6
-- License: CC0-1.0 (public domain)
-- Author: publicsamples
+## Contents
 
-## Files
-- 909 Opus 48k VBR audio files (flat structure)
-- `index.json` — file catalog with note/velocity/roundRobin metadata
+- `index.json` — metadata index
+- `*.opus` — audio files
+- `validate.py` — validation script
 
-## URL Pattern
-- Audio: `https://raw.githubusercontent.com/zulfikarbarbora-outl/roland-juno-6-opus-48/main/<filename>.opus`
-- Index: `https://raw.githubusercontent.com/zulfikarbarbora-outl/roland-juno-6-opus-48/main/index.json`
-- README: `https://raw.githubusercontent.com/zulfikarbarbora-outl/roland-juno-6-opus-48/main/README.md`
+## License
 
-## Sourced by
-`scripts/source-publicsamples-tier1.py` on 2026-07-28 (Phase 1 — publicsamples vintage-synth SFZ).
+CC0-1.0 / Public Domain
